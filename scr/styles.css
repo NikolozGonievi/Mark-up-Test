@@ -277,7 +277,7 @@ top: 20px; */
     bottom: 50.3%;
 }
 
-.salon span {
+.salon span>a {
     height: 29px;
     width: 189px;
     position: absolute;
@@ -311,7 +311,7 @@ top: 20px; */
 
 }
 
-.azomva span {
+.azomva span>a {
     height: 29px;
     width: 110px;
 
@@ -335,7 +335,7 @@ top: 20px; */
 
 }
 
-.salonebisLoc span {
+.salonebisLoc span>a {
     height: 29px;
     width: 110px;
 
@@ -369,7 +369,7 @@ top: 20px; */
     bottom: 46.75%;
 }
 
-.broshura span {
+.broshura span>a {
     height: 29px;
     width: 110px;
 
@@ -403,7 +403,7 @@ top: 20px; */
     bottom: 46.75%;
 }
 
-.zarisSekveta span {
+.zarisSekveta span>a {
     height: 29px;
     width: 110px;
 
@@ -770,40 +770,41 @@ h3 {
     top: 2431px;
 }
 
-.advertisement p{
+.advertisement p {
     position: absolute;
-width: 490px;
-height: 70px;
-left:10%;
-top: 10px;
+    width: 490px;
+    height: 70px;
+    left: 10%;
+    top: 10px;
 
-font-family: BPG WEB 001 Caps;
-font-style: normal;
-font-weight: normal;
-font-size: 28px;
-line-height: 250.19%;
-/* or 34px */
+    font-family: BPG WEB 001 Caps;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 250.19%;
+    /* or 34px */
 
 
-text-align: center;
+    text-align: center;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
-.advertisement  hr{
+.advertisement hr {
     position: absolute;
-width: 76px;
-height: 0px;
+    width: 76px;
+    height: 0px;
 
-top: 100px;
-left: 21%;
+    top: 100px;
+    left: 21%;
 
-background-color:white;
-border: 5px solid #FFFFFF;
-border-radius: 10px;;
+    background-color: white;
+    border: 5px solid #FFFFFF;
+    border-radius: 10px;
+    ;
 }
 
-#adverButton{
+#adverButton {
     text-align: center;
     border: 1px green solid;
     height: 44.73011016845703px;
@@ -813,4 +814,117 @@ border-radius: 10px;;
     left: 17.5%;
     background-color: white;
     color: black;
+}
+
+footer {
+    position: absolute;
+    top: 2889px;
+}
+
+.footerPhoto {
+    position: absolute;
+    left: 0%;
+    width: 1921px;
+    height: 540;
+    opacity: 0.80;
+    z-index: -1;
+}
+
+.flex-container3 {
+    display: flex;
+}
+
+.flex-container3>div {
+    
+    width: 370px;
+    height: 400px;
+    text-align: center;
+    margin: 70px;
+    position: relative;
+    left: 15%;
+}
+
+.footerStrongs {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+
+    font-family: BPG Glaho WEB Caps;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+#footerInput {
+    height: 47px;
+    width: 270px;
+}
+
+#sendButton {
+    background-color: white;
+    margin-left: -55px;
+    margin-top: 5px;
+    border: 0px;
+
+}
+
+#footerUL {
+    margin-left: -150px;
+}
+
+#footerUL li {
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    border-radius: 45px;
+    background-color: green;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+#contactButton {
+    text-align: center;
+    border: 1px green solid;
+    height: 44.73011016845703px;
+    width: 213.9551239013672px;
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-color: #00B15D;
+    color: white;
+}
+
+#copyright {
+    font-family: Sylfaen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 230.19%;
+    /* or 37px */
+
+
+    color: #FFFFFF;
+}
+.footerUL2>li{
+    list-style-type: none;
+    text-align: left;
+}
+
+.footerUL2>li>a {
+    text-decoration: none;
+    
+    font-family: Sylfaen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 41px;
+    
+    margin-left: 10px;
+
+    color: #FFFFFF;
 }
