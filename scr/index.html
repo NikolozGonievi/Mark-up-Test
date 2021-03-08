@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../scr/styles.css">
+    <script src="jquery-1.11.1.min.js"></script>
     <title>სატესტო სამუშაო</title>
 </head>
 
@@ -18,10 +19,10 @@
                 <option value="English">English</option>
             </select>
             <div class="phoneNum">
-                <img  src="../img/phone_icon.svg" alt="phone_icon" />
+                <img src="../img/phone_icon.svg" alt="phone_icon" />
                 <span>+7 943 534-56-65</span>
             </div>
-            <div class="search"> 
+            <div class="search">
                 <img src="../img/lupa_icon.png" alt="" id="lupa_icon">
                 <input type="text" placeholder="ძებნა">
             </div>
@@ -56,7 +57,7 @@
 
             <div class="broshura">
                 <img src="../img/broshura.svg" alt="broshura">
-                <span>ბროშურა</span>                
+                <span>ბროშურა</span>
             </div>
 
             <div class="zarisSekveta">
@@ -65,7 +66,7 @@
             </div>
 
             <div class="kalata">
-                <img id="kalataIMG"src="../img/kalata.svg" alt="kalata">
+                <img id="kalataIMG" src="../img/kalata.svg" alt="kalata">
                 <span id="kalataSpan1">კალათაში </span>
                 <span id="kalataSpan2">654 986</span>
                 <img id="lariIMG" src="../img/lari.svg" alt="lari_logo">
@@ -73,7 +74,7 @@
         </div>
     </header>
     <nav class="nav">
-        <select  size="1">
+        <select size="1">
             <option selected value="სამზარეულო">სამზარეულო</option>
         </select>
         <span>კალკულატორი</span>
@@ -89,6 +90,105 @@
         </select>
     </nav>
 
+    <article>
+        <div class="slider">
+            <img src="../img/kuxna1.jpg" alt="kuxna1" class="mySlides">
+            <img src="../img/kunxa2.png" alt="kuxna2" class="mySlides">
+            <img src="../img/kuxna3.png" alt="kuxna3" class="mySlides">
+            <img src="../img/kuxna4.png" alt="kuxna3" class="mySlides">
+        </div>
+
+        <div class="greenboxBehindWhiteBox">
+        </div>
+
+        <div class="whiteBoxOnSlider">
+            <p>შეუკვეთეთ თქვენი ოცნების სამზარეულო</p>
+            <button>დანიშნეთ შეხვედრა</button>
+            <button> კატალოგი</button>
+        </div>
+
+        <h2 id="KitchenCat">
+            სამზარეულოს კატალოგი
+            <hr>
+        </h2>
+
+        <p class="chooseYourKuxna">
+            თუ გსურთ გამოიყენოთ ყველა ადგილი, შეარჩიეთ შესაბამისი სამზარეულო, ამ ტექსტს არ მიაქციოთ ყურადღება.
+        </p>
+
+        <div class="flex-container">
+            <div>
+                <div class="flexButtonInPicture">
+                    <img id='flex1' src="../img/flexKuxna1.jpg" alt="samzareulo1" onmouseover="buttonFunc()">
+                    <!--  <button class="flexButton">გადადით კატალოგში</button> -->
+                </div>
+
+                <h3>თანამედროვე</h3>
+                <p class="flexContP">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div>
+                <img src="../img/flexKuxna2.jpg" alt="samzareulo2">
+                <h3>ნეოკლასიკური</h3>
+                <p class="flexContP">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </div>
+            <div>
+                <img src="../img/flexKuxna3.jpg" alt="samzareulo3">
+                <h3>კლასიკური</h3>
+                <p class="flexContP">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+
+        <h2 id="FourSteps">
+            <span>4</span> ნაბიჯი თქვენი ოცნების სამზარეულოს შესაკვეთად
+            <hr>
+        </h2>
+
+        <p class="chooseYour4Steps">
+            თუ გსურთ გამოიყენოთ ყველა ადგილი, შეარჩიეთ ელიტარული დრო, რომ გააკეთოთ დროებითი შრომისუნარიანობა და
+            სამუშაოები.
+        </p>
+
+        <div class="flex-container2">
+            <div>
+                <img src="../img/step1.jpg" alt="step1">
+            </div>
+            <div>
+                <img src="../img/step2.jpg" alt="step2">
+            </div>
+            <div>
+                <img src="../img/step3.jpg" alt="step3">
+            </div>
+            <div>
+                <img src="../img/step4.jpg" alt="step4">
+            </div>
+        </div>
+
+        <div class="advertisement">
+            <img src="../img/reklama.jpg" alt="advertisement">
+            <div>                
+                   <p>დაიწყე შენი პროექტი დღეს  
+                       <br>        
+                   დაზოგე 40% ფასდაკლებით
+                </p> 
+                <hr>
+                
+            </div>
+            <button id="adverButton"><a href="#">გადადით კალათაში</a> </button>          
+        </div>
+
+    </article>
+
+    <script src="/scr/script.js"></script>
 </body>
 
 </html>
